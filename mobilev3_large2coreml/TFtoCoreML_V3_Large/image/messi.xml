@@ -1,0 +1,36 @@
+<annotation>
+    <folder>image</folder>
+    <filename>messi.jpg</filename>
+    <size>
+        <width>1296</width>
+        <height>729</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>person</name>
+        <bndbox>
+            <xmin>64</xmin>
+            <ymin>21</ymin>
+            <xmax>824</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>person</name>
+        <bndbox>
+            <xmin>642</xmin>
+            <ymin>115</ymin>
+            <xmax>1134</xmax>
+            <ymax>726</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>person</name>
+        <bndbox>
+            <xmin>1204</xmin>
+            <ymin>485</ymin>
+            <xmax>1293</xmax>
+            <ymax>687</ymax>
+        </bndbox>
+    </object>
+</annotation>
