@@ -1,0 +1,27 @@
+<annotation>
+    <folder>image</folder>
+    <filename>person_dog.jpg</filename>
+    <size>
+        <width>550</width>
+        <height>367</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>person</name>
+        <bndbox>
+            <xmin>293</xmin>
+            <ymin>9</ymin>
+            <xmax>547</xmax>
+            <ymax>364</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>dog</name>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>40</ymin>
+            <xmax>305</xmax>
+            <ymax>363</ymax>
+        </bndbox>
+    </object>
+</annotation>
