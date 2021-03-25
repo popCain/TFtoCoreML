@@ -16,7 +16,10 @@ Main network tranceform(`ssd_mobilenet.mlmodel`)
 4. **Decoder.py**
 ____
 * encode process:![](https://github.com/popCain/TFtoCoreML/blob/main/image/encode1.png)
-
+![](https://github.com/popCain/TFtoCoreML/blob/main/image/encode2.png)
+![](https://github.com/popCain/TFtoCoreML/blob/main/image/encode3.png)
+![](https://github.com/popCain/TFtoCoreML/blob/main/image/encode4.png)
+![](https://github.com/popCain/TFtoCoreML/blob/main/image/decode.png)
 
 6. **NMS.py**
 7. **pipelines.py**
