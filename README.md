@@ -6,7 +6,7 @@ Core ML models(iOS) transformed from the models that trained on tensorflow(`thre
 * MobileNetV1_SSD/MobileNetV2_SSDLite/MobileNetV3_Large_SSDLite/MobileNetV3_Small_SSDLite/MobileDet_SSD_CPU
 ## Transform Process
 ![](https://github.com/popCain/TFtoCoreML/blob/main/image/tf2coreml_process.png)
-* The transform process from file list
+> The transform process from file list
 1. 
 2. Simplify the model(Strip unused subgraphs get simplified frozen graph-`ssd_mobilenet.pb`)
 3. 
