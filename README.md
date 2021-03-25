@@ -15,8 +15,7 @@ Simplify the model(Strip unused subgraphs get simplified frozen graph-`ssd_mobil
 Main network tranceform(`ssd_mobilenet.mlmodel`)
 4. **Decoder.py**
 ____
-encode process:
-![](https://github.com/popCain/TFtoCoreML/blob/main/image/encode1.png)
+* encode process:![](https://github.com/popCain/TFtoCoreML/blob/main/image/encode1.png)
 
 
 6. **NMS.py**
