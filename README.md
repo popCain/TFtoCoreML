@@ -5,5 +5,6 @@ Transform the [object detection model](https://github.com/tensorflow/models/blob
 Core ML models(iOS) transformed from the models that trained on tensorflow(`threshold: IOU=0.4; Confidece=0.6`)
 * MobileNetV1_SSD/MobileNetV2_SSDLite/MobileNetV3_Large_SSDLite/MobileNetV3_Small_SSDLite/MobileDet_SSD_CPU
 ## Transform Process
+![](https://github.com/popCain/TFtoCoreML/blob/main/image/tf2coreml_process.png)
 1. Simplify the model(Strip unused subgraphs get simplified frozen graph-`ssd_mobilenet.pb`)
 2. 
