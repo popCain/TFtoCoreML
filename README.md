@@ -3,4 +3,4 @@ Transform the [object detection model](https://github.com/tensorflow/models/blob
 ## Folder List
 * mlmodels_IOU0.4_Conf0.6  
 Core ML models(iOS) transformed from the models that trained on tensorflow(`threshold: IOU=0.4; Confidece=0.6`)
-* mobileDet2coreml
+* MobileNetV1_SSD/MobileNetV2_SSDLite/MobileNetV3_Large_SSDLite/MobileNetV3_Small_SSDLite/MobileDet_SSD_CPU
