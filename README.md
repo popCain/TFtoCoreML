@@ -8,8 +8,11 @@ Core ML models(iOS) transformed from the models that trained on tensorflow(`thre
 ![](https://github.com/popCain/TFtoCoreML/blob/main/image/tf2coreml_process.png)
 > **The transform process from file list**
 1. **check_modelNodes.py**  
-_____
 Load the `frozen_inference_graph.pb`,and print the name of nodes in each layer. Then get the input_node_name(mobilenet) and output_node_name(scores/boundingboxes)
-2. frozenToSimplePB.py  
-_Simplify the model(Strip unused subgraphs get simplified frozen graph-`ssd_mobilenet.pb`)_
-3. 
+2. **frozenToSimplePB.py**    
+Simplify the model(Strip unused subgraphs get simplified frozen graph-`ssd_mobilenet.pb`)
+3. **simplePB_ToCoreml.py**  
+Main network tranceform(`ssd_mobilenet.mlmodel`)
+4. **Decoder.py**
+5. **NMS.py**
+6. **pipelines.py**
